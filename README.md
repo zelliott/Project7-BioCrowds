@@ -27,7 +27,7 @@ Each contribution is normalized by the total marker contributions (divide each c
   - Clamp velocity to some maximum (you probably want to choose a max speed such that you agent will never move further than its marker radius)
 - Move agents by their newly computed velocity * time step
 - Draw a ground plane and cylinders to represent the agents.
-- For a more thorough explanation, see [HERE](http://www.inf.pucrs.br/~smusse/Animacao/2016/CrowdTalk.pdf) and [HERE](http://www.sciencedirect.com/science/article/pii/S0097849311001713) and [HERE](https://books.google.com/books?id=3Adh_2ZNGLAC&pg=PA146&lpg=PA146&dq=biocrowds%20algorithm&source=bl&ots=zsM86iYTot&sig=KQJU7_NagMK4rbpY0oYc3bwCh9o&hl=en&sa=X&ved=0ahUKEwik9JfPnubSAhXIxVQKHUybCxUQ6AEILzAE#v=onepage&q=biocrowds%20algorithm&f=false)
+- For a more thorough explanation, see [HERE](http://www.inf.pucrs.br/~smusse/Animacao/2016/CrowdTalk.pdf) and [HERE](http://www.sciencedirect.com/science/article/pii/S0097849311001713) and [HERE](https://books.google.com/books?id=3Adh_2ZNGLAC&pg=PA146&lpg=PA146&dq=biocrowds%20algorithm&source=bl&ots=zsM86iYTot&sig=KQJU7_NagMK4rbpY0oYc3bwCh9o&hl=en&sa=X&ved=0ahUKEwik9JfPnubSAhXIxVQKHUybCxUQ6AEILzAE#v=onepage&q=biocrowds%20algorithm&f=false) and [HERE](https://cis700-procedural-graphics.github.io/files/biocrowds_3_21_17.pdf)
 
 ## Two scenarios
 - Create two different scenarios (initial agent placement, goals) to show off the collision avoidance. Try to pick something interesting! Classics include two opposing lines of agents with goals on opposite sides, or agents that spawn in a circle, which each agent's goal directly across.
